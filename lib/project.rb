@@ -6,7 +6,7 @@ class Project
     @title = title
     @backers = []
   end 
-  def backers 
+  def self.backers 
     @backers 
   end 
   def add_backer(backer_instance)
